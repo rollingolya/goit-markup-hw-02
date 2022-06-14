@@ -1,4 +1,26 @@
+.link {
+
+}
+
+.first-link { color: rgba(33, 150, 243, 1);
+    position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+}
+
 h1 {
+    color: rgba(255, 255, 255, 1);
+    ;
     position: absolute;
     width: 696px;
     height: 120px;
@@ -15,4 +37,16 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+h2 {color: rgba(33, 33, 33, 1);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+    
+
 }
