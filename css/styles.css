@@ -1,9 +1,21 @@
-.link {
+.logo {color: #2196F3;
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
 
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
 }
 
 .first-link { color: rgba(33, 150, 243, 1);
-    position: absolute;
+position: absolute;
 width: 49px;
 height: 16px;
 left: 453px;
@@ -15,12 +27,69 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
 }
 
-h1 {
-    color: rgba(255, 255, 255, 1);
-    ;
+.scnd-link { color: #212121;
+position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.thrd-link { color: #212121;
+position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.link-mail {color: rgba(33, 150, 243, 1);
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.tel-hd {color: rgba(117, 117, 117, 1);
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+h1 {color: rgba(255, 255, 255, 1);
     position: absolute;
     width: 696px;
     height: 120px;
@@ -37,6 +106,26 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.text-button {color: rgba(255, 255, 255, 1);
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 732px;
+    top: 440px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 h2 {color: rgba(33, 33, 33, 1);
