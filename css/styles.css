@@ -275,6 +275,13 @@ letter-spacing: 0.03em;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;}
+.sect-team {background-color: rgba(245, 244, 250, 1);
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;}
+    
 .Team {color: rgba(33, 33, 33, 1);position: absolute;
     width: 264px;
     height: 42px;
