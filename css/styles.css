@@ -1,4 +1,10 @@
-body { font-family: 'Roboto';}
+body { color: rgba(255, 255, 255, 1);
+font-family: 'Roboto', 'Verdana', 'Tahoma';}
+.header-link {
+text-decoration: none;
+line-height: normal;
+
+}
 .logo {color: #2196F3;
 position: absolute;
 width: 145px;
@@ -281,7 +287,7 @@ letter-spacing: 0.03em;
     height: 648px;
     left: 0px;
     top: 1449px;}
-    
+
 .Team {color: rgba(33, 33, 33, 1);position: absolute;
     width: 264px;
     height: 42px;
