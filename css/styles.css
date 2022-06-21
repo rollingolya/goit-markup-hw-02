@@ -1,4 +1,5 @@
 body { color: rgba(255, 255, 255, 1);
+background-color: white;
 font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;}
 
 .header-link {
@@ -23,7 +24,7 @@ letter-spacing: 0.03em;
 
 .studio {color: #212121}
 
-.first-link { color: rgba(33, 150, 243, 1);
+.first-nav { color: rgba(33, 150, 243, 1);
 position: absolute;
 width: 49px;
 height: 16px;
@@ -37,7 +38,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 }
 
-.scnd-link { color: #212121;
+.scnd-nav { color: #212121;
 position: absolute;
 width: 77px;
 height: 16px;
@@ -51,7 +52,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 }
 
-.thrd-link { color: #212121;
+.thrd-nav { color: #212121;
 position: absolute;
 width: 68px;
 height: 16px;
@@ -64,6 +65,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 }
+
 
 .link-mail {color: rgba(33, 150, 243, 1);
 position: absolute;
@@ -100,6 +102,9 @@ height: 600px;
 left: 0px;
 top: 80px;}
 
+.cont-nav:hover
+.cont-nav:focus {color: blue;}
+
 h1 {color: rgba(255, 255, 255, 1);
 position: absolute;
 width: 696px;
@@ -115,7 +120,6 @@ line-height: 60px;
     
 text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase;
 }
 
 .text-button {color: rgba(255, 255, 255, 1);
@@ -145,7 +149,8 @@ top: 430px;
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;}
+border-radius: 4px;
+justify-content: space-around; }
 
 .attention-detail {color: rgba(33, 33, 33, 1);
 position: absolute;
@@ -153,15 +158,12 @@ width: 270px;
 height: 16px;
 left: 215px;
 top: 774px;
-    
-    
-font-style: normal;
+     
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-text-transform: uppercase;
-}
+text-transform: uppercase;}
 
 .punctuality {color: rgba(33, 33, 33, 1);
 position: absolute;
@@ -184,7 +186,6 @@ height: 16px;
 left: 815px;
 top: 774px;
 
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -199,13 +200,12 @@ height: 16px;
 left: 1115px;
 top: 774px;
 
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-text-transform: uppercase;
-}
+text-transform: uppercase;}
+
 .idea-considerations {color: rgba(117, 117, 117, 1);
 position: absolute;
 width: 270px;
@@ -213,14 +213,13 @@ height: 75px;
 left: 215px;
 top: 800px;
 
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
 
-letter-spacing: 0.03em;
-}
+letter-spacing: 0.03em;}
+
 .task-company{color: rgba(117, 117, 117, 1);
 position: absolute;
 width: 270px;
@@ -228,14 +227,13 @@ height: 75px;
 left: 515px;
 top: 800px;
 
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
 
-letter-spacing: 0.03em;
-}
+letter-spacing: 0.03em;}
+
 .consult{color: rgba(117, 117, 117, 1);
 position: absolute;
 width: 270px;
@@ -249,8 +247,8 @@ font-size: 14px;
 line-height: 24px;
 /* or 171% */
 
-letter-spacing: 0.03em;
-}
+letter-spacing: 0.03em;}
+
 .significance-problem {color: rgba(117, 117, 117, 1);
 position: absolute;
 width: 270px;
@@ -264,8 +262,8 @@ font-size: 14px;
 line-height: 24px;
 /* or 171% */
 
-letter-spacing: 0.03em;
-}
+letter-spacing: 0.03em;}
+
 .what-we-do {color: rgba(33, 33, 33, 1);
 position: absolute;
 width: 376px;
@@ -280,6 +278,36 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;}
 
+.pict-first {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+    
+background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+mix-blend-mode: normal; }
+
+.pict-scnd {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+
+background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+
+.pict-thrd {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+
+background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
 .sect-team {background-color: rgba(245, 244, 250, 1);
 position: absolute;
 width: 1600px;
@@ -287,18 +315,28 @@ height: 648px;
 left: 0px;
 top: 1449px;}
 
-.Team {color: rgba(33, 33, 33, 1);position: absolute;
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1543px;
+.team {color: #212121; 
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
     
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;} 
+
+.employee-first {position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1635px;
+    
+    background: url(4853.jpg);
+    border-radius: 0px;}
 
 .name-ihor {color: rgba(33, 33, 33, 1);
 position: absolute;
@@ -317,84 +355,111 @@ text-align: center;
 letter-spacing: 0.03em;}
 
 .designer{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 130px;
-height: 19px;
-left: 285px;
-top: 1954px;
+    position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 285px;
+    top: 1954px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;}
 
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;}
+.employee-scnd {position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 1635px;
+    
+    background: url(5844.jpg);
+    border-radius: 0px;}
 
 .name-olha{color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 109px;
-height: 19px;
-left: 596px;
-top: 1925px;
-
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;}
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 596px;
+    top: 1925px;
+        
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+        
+    text-align: center;
+    letter-spacing: 0.03em;}
 
 .developer{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 147px;
-height: 19px;
-left: 577px;
-top: 1954px;
+    position: absolute;
+    width: 147px;
+    height: 19px;
+    left: 577px;
+    top: 1954px;
+        
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+        
+    text-align: center;
+    letter-spacing: 0.03em;}
 
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;}
+.employee-thrd {position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 815px;
+    top: 1635px;
+    
+    background: url(16166.jpg);
+    border-radius: 0px;}
 
 .name-nick {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 137px;
-height: 19px;
-left: 882px;
-top: 1925px;
-
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;}
-
+    position: absolute;
+    width: 137px;
+    height: 19px;
+    left: 882px;
+    top: 1925px;
+        
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+        
+    text-align: center;
+    letter-spacing: 0.03em;}
+        
 .marketing{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 76px;
-height: 19px;
-left: 912px;
-top: 1954px;
+    position: absolute;
+    width: 76px;
+    height: 19px;
+    left: 912px;
+    top: 1954px;
+        
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+        
+    text-align: center;
+    letter-spacing: 0.03em;}
 
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;}
+.employee-fourth {position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1635px;
+    
+    background: url(2968.jpg);
+    border-radius: 0px;}
 
 .name-michael {color: rgba(33, 33, 33, 1);
 position: absolute;
@@ -444,6 +509,8 @@ line-height: 31px;
 
 letter-spacing: 0.03em;}
 
+.studio-white {color: white;} 
+
 .link-adr-ftr {color: rgba(255, 255, 255, 1);
 position: absolute;
 width: 231px;
@@ -489,4 +556,9 @@ line-height: 24px;
 
 letter-spacing: 0.03em;}
 
-.studio-white {color: white;}
+.footer-back {background-color: rgba(47, 48, 58, 1);
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;}
