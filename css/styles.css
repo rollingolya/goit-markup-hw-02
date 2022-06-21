@@ -1,10 +1,10 @@
 body { color: rgba(255, 255, 255, 1);
-font-family: 'Roboto', 'Verdana', 'Tahoma';}
+font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;}
+
 .header-link {
 text-decoration: none;
-line-height: normal;
+line-height: normal;}
 
-}
 .logo {color: #2196F3;
 position: absolute;
 width: 145px;
@@ -21,6 +21,8 @@ line-height: 31px;
 letter-spacing: 0.03em;
 }
 
+.studio {color: #212121}
+
 .first-link { color: rgba(33, 150, 243, 1);
 position: absolute;
 width: 49px;
@@ -28,7 +30,6 @@ height: 16px;
 left: 453px;
 top: 32px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -43,7 +44,6 @@ height: 16px;
 left: 552px;
 top: 32px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -58,7 +58,6 @@ height: 16px;
 left: 679px;
 top: 32px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -73,7 +72,6 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -88,7 +86,6 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -104,58 +101,66 @@ left: 0px;
 top: 80px;}
 
 h1 {color: rgba(255, 255, 255, 1);
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    /* or 136% */
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
     
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 .text-button {color: rgba(255, 255, 255, 1);
-    position: absolute;
-    width: 136px;
-    height: 30px;
-    left: 732px;
-    top: 440px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
+position: absolute;
+width: 136px;
+height: 30px;
+left: 732px;
+top: 440px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+background-color: rgba(33, 150, 243, 1);
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;}
 
 .attention-detail {color: rgba(33, 33, 33, 1);
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 215px;
-    top: 774px;
+position: absolute;
+width: 270px;
+height: 16px;
+left: 215px;
+top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
 .punctuality {color: rgba(33, 33, 33, 1);
@@ -165,7 +170,6 @@ height: 16px;
 left: 515px;
 top: 774px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -180,7 +184,6 @@ height: 16px;
 left: 815px;
 top: 774px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -188,14 +191,14 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.tech {counter-reset: rgba(33, 33, 33, 1);
+
+.tech {color: rgba(33, 33, 33, 1);
 position: absolute;
 width: 270px;
 height: 16px;
 left: 1115px;
 top: 774px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -210,7 +213,6 @@ height: 75px;
 left: 215px;
 top: 800px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -226,7 +228,6 @@ height: 75px;
 left: 515px;
 top: 800px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -242,7 +243,6 @@ height: 75px;
 left: 815px;
 top: 800px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -258,7 +258,6 @@ height: 75px;
 left: 1115px;
 top: 800px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -268,39 +267,39 @@ line-height: 24px;
 letter-spacing: 0.03em;
 }
 .what-we-do {color: rgba(33, 33, 33, 1);
-    position: absolute;
-    width: 376px;
-    height: 42px;
-    left: 612px;
-    top: 969px;
+position: absolute;
+width: 376px;
+height: 42px;
+left: 612px;
+top: 969px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;}
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;}
+
 .sect-team {background-color: rgba(245, 244, 250, 1);
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;}
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;}
 
 .Team {color: rgba(33, 33, 33, 1);position: absolute;
-    width: 264px;
-    height: 42px;
-    left: 668px;
-    top: 1543px;
+width: 264px;
+height: 42px;
+left: 668px;
+top: 1543px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;}
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;}
+
 .name-ihor {color: rgba(33, 33, 33, 1);
 position: absolute;
 width: 151px;
@@ -308,7 +307,6 @@ height: 19px;
 left: 275px;
 top: 1925px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -325,7 +323,6 @@ height: 19px;
 left: 285px;
 top: 1954px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -342,7 +339,6 @@ height: 19px;
 left: 596px;
 top: 1925px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -359,7 +355,6 @@ height: 19px;
 left: 577px;
 top: 1954px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -376,7 +371,6 @@ height: 19px;
 left: 882px;
 top: 1925px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -393,7 +387,6 @@ height: 19px;
 left: 912px;
 top: 1954px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -410,7 +403,6 @@ height: 19px;
 left: 1183px;
 top: 1925px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -427,7 +419,6 @@ height: 19px;
 left: 1207px;
 top: 1954px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -460,7 +451,6 @@ height: 21px;
 left: 215px;
 top: 2208px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -476,7 +466,6 @@ height: 21px;
 left: 215px;
 top: 2238px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -492,7 +481,6 @@ height: 21px;
 left: 215px;
 top: 2268px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -501,3 +489,4 @@ line-height: 24px;
 
 letter-spacing: 0.03em;}
 
+.studio-white {color: white;}
