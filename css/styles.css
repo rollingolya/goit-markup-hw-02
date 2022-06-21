@@ -2,7 +2,11 @@ body { color: rgba(255, 255, 255, 1);
 background-color: white;
 font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;}
 
-.header-link {
+.menu-nav li a {
+text-decoration: none;
+line-height: normal;}
+
+.header-link a {
 text-decoration: none;
 line-height: normal;}
 
@@ -19,8 +23,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 /* identical to box height */
-letter-spacing: 0.03em;
-}
+letter-spacing: 0.03em;}
 
 .studio {color: #212121}
 
@@ -66,6 +69,9 @@ line-height: 16px;
 letter-spacing: 0.02em;
 }
 
+.contact-nav a {
+text-decoration: none;
+line-height: normal;}
 
 .link-mail {color: rgba(33, 150, 243, 1);
 position: absolute;
@@ -102,8 +108,11 @@ height: 600px;
 left: 0px;
 top: 80px;}
 
-.cont-nav:hover
-.cont-nav:focus {color: blue;}
+.link-mail:hover,
+.link-mail:focus {color: blue;}
+
+.tel-hd:hover,
+.tel-hd:focus {color: blue;}
 
 h1 {color: rgba(255, 255, 255, 1);
 position: absolute;
@@ -150,7 +159,7 @@ top: 430px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-justify-content: space-around; }
+justify-content: space-around;}
 
 .attention-detail {color: rgba(33, 33, 33, 1);
 position: absolute;
@@ -263,7 +272,6 @@ line-height: 24px;
 /* or 171% */
 
 letter-spacing: 0.03em;}
-
 .what-we-do {color: rgba(33, 33, 33, 1);
 position: absolute;
 width: 376px;
@@ -316,27 +324,27 @@ left: 0px;
 top: 1449px;}
 
 .team {color: #212121; 
-    position: absolute;
-    width: 264px;
-    height: 42px;
-    left: 668px;
+position: absolute;
+width: 264px;
+height: 42px;
+left: 668px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;} 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;} 
 
 .employee-first {position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 215px;
-    top: 1635px;
+width: 270px;
+height: 260px;
+left: 215px;
+top: 1635px;
     
-    background: url(4853.jpg);
-    border-radius: 0px;}
+background: url(4853.jpg);
+border-radius: 0px;}
 
 .name-ihor {color: rgba(33, 33, 33, 1);
 position: absolute;
@@ -355,111 +363,111 @@ text-align: center;
 letter-spacing: 0.03em;}
 
 .designer{color: rgba(117, 117, 117, 1);
-    position: absolute;
-    width: 130px;
-    height: 19px;
-    left: 285px;
-    top: 1954px;
+position: absolute;
+width: 130px;
+height: 19px;
+left: 285px;
+top: 1954px;
     
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
     
-    text-align: center;
-    letter-spacing: 0.03em;}
+text-align: center;
+letter-spacing: 0.03em;}
 
 .employee-scnd {position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 515px;
-    top: 1635px;
+width: 270px;
+height: 260px;
+left: 515px;
+top: 1635px;
     
-    background: url(5844.jpg);
-    border-radius: 0px;}
+background: url(5844.jpg);
+border-radius: 0px;}
 
 .name-olha{color: rgba(33, 33, 33, 1);
-    position: absolute;
-    width: 109px;
-    height: 19px;
-    left: 596px;
-    top: 1925px;
+position: absolute;
+width: 109px;
+height: 19px;
+left: 596px;
+top: 1925px;
         
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
         
-    text-align: center;
-    letter-spacing: 0.03em;}
+text-align: center;
+letter-spacing: 0.03em;}
 
 .developer{color: rgba(117, 117, 117, 1);
-    position: absolute;
-    width: 147px;
-    height: 19px;
-    left: 577px;
-    top: 1954px;
+position: absolute;
+width: 147px;
+height: 19px;
+left: 577px;
+top: 1954px;
         
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
         
-    text-align: center;
-    letter-spacing: 0.03em;}
+text-align: center;
+letter-spacing: 0.03em;}
 
 .employee-thrd {position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 815px;
-    top: 1635px;
+width: 270px;
+height: 260px;
+left: 815px;
+top: 1635px;
     
-    background: url(16166.jpg);
-    border-radius: 0px;}
+background: url(16166.jpg);
+border-radius: 0px;}
 
 .name-nick {color: rgba(33, 33, 33, 1);
-    position: absolute;
-    width: 137px;
-    height: 19px;
-    left: 882px;
-    top: 1925px;
+position: absolute;
+width: 137px;
+height: 19px;
+left: 882px;
+top: 1925px;
         
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
         
-    text-align: center;
-    letter-spacing: 0.03em;}
+text-align: center;
+letter-spacing: 0.03em;}
         
 .marketing{color: rgba(117, 117, 117, 1);
-    position: absolute;
-    width: 76px;
-    height: 19px;
-    left: 912px;
-    top: 1954px;
+position: absolute;
+width: 76px;
+height: 19px;
+left: 912px;
+top: 1954px;
         
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
         
-    text-align: center;
-    letter-spacing: 0.03em;}
+text-align: center;
+letter-spacing: 0.03em;}
 
 .employee-fourth {position: absolute;
-    width: 270px;
-    height: 260px;
-    left: 1115px;
-    top: 1635px;
+width: 270px;
+height: 260px;
+left: 1115px;
+top: 1635px;
     
-    background: url(2968.jpg);
-    border-radius: 0px;}
+background: url(2968.jpg);
+border-radius: 0px;}
 
 .name-michael {color: rgba(33, 33, 33, 1);
 position: absolute;
@@ -492,6 +500,10 @@ line-height: 19px;
 
 text-align: center;
 letter-spacing: 0.03em;}
+
+.footer-back a {
+text-decoration: none;
+line-height: normal;}
 
 .logo-footer {color: #2196F3;
 position: absolute;
@@ -556,9 +568,15 @@ line-height: 24px;
 
 letter-spacing: 0.03em;}
 
+.link-mail-ftr:hover,
+.link-mail-ftr:focus {color: blue;}
+
+.link-ph-ftr:hover,
+.link-ph-ftr:focus {color: blue;}
+
 .footer-back {background-color: rgba(47, 48, 58, 1);
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;}
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;}
