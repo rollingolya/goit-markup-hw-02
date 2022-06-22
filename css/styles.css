@@ -1,4 +1,4 @@
-:root {
+:rootstyle {
     /* text colors */
 --main-font: 'Roboto';
 --secondary-font: 'Raleway';
@@ -332,6 +332,7 @@ letter-spacing: 0.03em;}
 .studio-white {color: white;} 
 
 .link-adr-ftr {color: rgba(255, 255, 255, 1);
+text-decoration: none;
 
 font-weight: 400;
 font-size: 14px;
