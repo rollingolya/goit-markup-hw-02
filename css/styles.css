@@ -31,7 +31,15 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;}
 
+.logo:hover,
+.logo:focus { text-decoration: underline;
+}
+
 .studio {color: #212121}
+
+.menu-nav-list > li > a:hover,
+.menu-nav-list > li > a:focus {text-decoration: underline;
+}
 
 .first-nav { color: rgba(33, 150, 243, 1);
 
@@ -75,11 +83,9 @@ letter-spacing: 0.02em;}
 
 .bg-hdr {background-color: rgba(47, 48, 58, 1);}
 
-.link-mail:hover,
-.link-mail:focus {color: blue;} 
-
-.tel-hd:hover,
-.tel-hd:focus {color: blue;}
+.contact-nav > a:hover,
+.contact-nav > a:focus {text-decoration: underline;
+}
 
 /* hero section */
 
@@ -319,6 +325,10 @@ line-height: 1.19;
 
 letter-spacing: 0.03em;}
 
+.logo-footer:hover,
+.logo-footer:focus { text-decoration: underline;
+}
+
 .studio-white {color: white;} 
 
 .link-adr-ftr {color: rgba(255, 255, 255, 1);
@@ -346,10 +356,56 @@ line-height: 1.71;
 letter-spacing: 0.03em;}
 
 .link-mail-ftr:hover,
-.link-mail-ftr:focus {color: blue;}
+.link-mail-ftr:focus {
+text-decoration: underline;
+}
 
 .link-ph-ftr:hover,
-.link-ph-ftr:focus {color: blue;}
+.link-ph-ftr:focus {
+text-decoration: underline;
+}
 
 .footer-back {background-color: rgba(47, 48, 58, 1);}
 
+/* Portfolio page */
+.first-nav-port { color: #212121;
+    Font style: Medium
+    Font size: 14px
+    Line height: 16px
+    Line height: 100%
+    Align: Left
+    Vertical align: Top
+    Letter spacing: 2%}
+
+.scnd-nav-port {color: #2196F3;}
+
+.thrd-nav-port {color: #212121;}
+
+.link-adr-ftr:hover,
+.link-adr-ftr:focus {text-decoration: underline;
+}
+
+.button-all-main {background: #2196F3;
+    /* shadow-middle */
+    
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.button-all-sites {background: #F5F4FA;
+    border-radius: 4px;}
+
+.button-all-apps {background: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.button-all-design {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-all-marketing {
+    background: #F5F4FA;
+    border-radius: 4px;
+}
