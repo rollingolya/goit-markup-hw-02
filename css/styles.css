@@ -1,7 +1,21 @@
+:root {
+    /* text colors */
+--main-font: 'Roboto';
+--secondary-font: 'Raleway';
+    /* bg-colors */
+}
+
 body { color: #212121;
 background-color: white;
 font-family: 'Roboto', 'Raleway', sans-serif;}
 
+/* common styles start */
+
+.list {
+    list-style: none;
+}
+
+/* header section */
 .menu-nav li a {
 text-decoration: none;
 line-height: normal;}
@@ -105,6 +119,8 @@ top: 80px;}
 
 .tel-hd:hover,
 .tel-hd:focus {color: blue;}
+
+/* hero section */
 
 h1 {color: rgba(255, 255, 255, 1);
 position: absolute;
