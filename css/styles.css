@@ -25,12 +25,6 @@ text-decoration: none;
 line-height: normal;}
 
 .logo {color: #2196F3;
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -40,11 +34,6 @@ letter-spacing: 0.03em;}
 .studio {color: #212121}
 
 .first-nav { color: rgba(33, 150, 243, 1);
-position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
 
 font-weight: 500;
 font-size: 14px;
@@ -52,41 +41,24 @@ line-height: 1.14;
 letter-spacing: 0.02em;}
 
 .scnd-nav { color: #212121;
-position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em;
-}
+letter-spacing: 0.02em;}
 
 .thrd-nav { color: #212121;
-position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em;
-}
+letter-spacing: 0.02em;}
 
 .contact-nav a {
 text-decoration: none;
 line-height: normal;}
 
 .link-mail {color: rgba(33, 150, 243, 1);
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
 
 font-weight: 500;
 font-size: 14px;
@@ -95,27 +67,16 @@ letter-spacing: 0.02em;
 }
 
 .tel-hd {color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em;
-}
+letter-spacing: 0.02em;}
 
-.bg-hdr {background-color: rgba(47, 48, 58, 1);
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;}
+.bg-hdr {background-color: rgba(47, 48, 58, 1);}
 
 .link-mail:hover,
-.link-mail:focus {color: blue;}
+.link-mail:focus {color: blue;} 
 
 .tel-hd:hover,
 .tel-hd:focus {color: blue;}
@@ -123,11 +84,6 @@ top: 80px;}
 /* hero section */
 
 h1 {color: rgba(255, 255, 255, 1);
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
     
 font-weight: 900;
 font-size: 44px;
@@ -135,15 +91,9 @@ line-height: 1.36;
     
 text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase;
-}
+text-transform: uppercase;}
 
 .text-button {color: rgba(255, 255, 255, 1);
-position: absolute;
-width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
 
 font-weight: 700;
 font-size: 16px;
@@ -168,17 +118,11 @@ justify-content: space-around;}
 .text-button:focus {
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
+border-radius: 4px;}
+
 /* features section  */
 
-.attention-detail {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 270px;
-height: 16px;
-left: 215px;
-top: 774px;
-     
+.attention-detail {color: rgba(33, 33, 33, 1); 
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -186,38 +130,20 @@ letter-spacing: 0.03em;
 text-transform: uppercase;}
 
 .punctuality {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 270px;
-height: 16px;
-left: 515px;
-top: 774px;
-
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
-text-transform: uppercase;
-}
+text-transform: uppercase;}
+
 .planning {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 270px;
-height: 16px;
-left: 815px;
-top: 774px;
-
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
-text-transform: uppercase;
-}
+text-transform: uppercase;}
 
 .tech {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 270px;
-height: 16px;
-left: 1115px;
-top: 774px;
 
 font-weight: 700;
 font-size: 14px;
@@ -226,11 +152,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;}
 
 .idea-considerations {color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 270px;
-height: 75px;
-left: 215px;
-top: 800px;
 
 font-weight: 400;
 font-size: 14px;
@@ -239,11 +160,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;}
 
 .task-company{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 270px;
-height: 75px;
-left: 515px;
-top: 800px;
 
 font-weight: 400;
 font-size: 14px;
@@ -252,11 +168,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;}
 
 .consult{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 270px;
-height: 75px;
-left: 815px;
-top: 800px;
 
 font-weight: 400;
 font-size: 14px;
@@ -265,11 +176,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;}
 
 .significance-problem {color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 270px;
-height: 75px;
-left: 1115px;
-top: 800px;
 
 font-weight: 400;
 font-size: 14px;
@@ -278,10 +184,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;}
 
 .what-we-do {color: rgba(33, 33, 33, 1);
-position: absolute;
-height: 42px;
-left: 612px;
-top: 969px;
     
 font-weight: 700;
 font-size: 36px;
@@ -291,47 +193,23 @@ letter-spacing: 0.03em;
 }
 
 .pict-first {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
     
 background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
 mix-blend-mode: normal; }
 
 .pict-scnd {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
 
 background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
 }
 
 .pict-thrd {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
 
 background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
 }
 
-.sect-team {background-color: rgba(245, 244, 250, 1);
-position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;}
+.sect-team {background-color: rgba(245, 244, 250, 1);}
 
 .team {color: #212121; 
-position: absolute;
-width: 264px;
-height: 42px;
-left: 668px;
     
 font-weight: 700;
 font-size: 36px;
@@ -339,21 +217,11 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;} 
 
-.employee-first {position: absolute;
-width: 270px;
-height: 260px;
-left: 215px;
-top: 1635px;
-    
+.employee-first {
 background: url(4853.jpg);
 border-radius: 0px;}
 
 .name-ihor {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 151px;
-height: 19px;
-left: 275px;
-top: 1925px;
 
 font-weight: 500;
 font-size: 16px;
@@ -363,11 +231,6 @@ text-align: center;
 letter-spacing: 0.03em;}
 
 .designer{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 130px;
-height: 19px;
-left: 285px;
-top: 1954px;
     
 font-weight: 400;
 font-size: 16px;
@@ -376,21 +239,11 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;}
 
-.employee-scnd {position: absolute;
-width: 270px;
-height: 260px;
-left: 515px;
-top: 1635px;
-    
+.employee-scnd {
 background: url(5844.jpg);
 border-radius: 0px;}
 
 .name-olha{color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 109px;
-height: 19px;
-left: 596px;
-top: 1925px;
         
 font-weight: 500;
 font-size: 16px;
@@ -400,11 +253,6 @@ text-align: center;
 letter-spacing: 0.03em;}
 
 .developer{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 147px;
-height: 19px;
-left: 577px;
-top: 1954px;
         
 font-weight: 400;
 font-size: 16px;
@@ -413,21 +261,11 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;}
 
-.employee-thrd {position: absolute;
-width: 270px;
-height: 260px;
-left: 815px;
-top: 1635px;
-    
+.employee-thrd {
 background: url(16166.jpg);
 border-radius: 0px;}
 
 .name-nick {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 137px;
-height: 19px;
-left: 882px;
-top: 1925px;
         
 font-weight: 500;
 font-size: 16px;
@@ -437,11 +275,6 @@ text-align: center;
 letter-spacing: 0.03em;}
         
 .marketing{color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 76px;
-height: 19px;
-left: 912px;
-top: 1954px;
         
 font-weight: 400;
 font-size: 16px;
@@ -451,20 +284,11 @@ text-align: center;
 letter-spacing: 0.03em;}
 
 .employee-fourth {position: absolute;
-width: 270px;
-height: 260px;
-left: 1115px;
-top: 1635px;
     
 background: url(2968.jpg);
 border-radius: 0px;}
 
 .name-michael {color: rgba(33, 33, 33, 1);
-position: absolute;
-width: 134px;
-height: 19px;
-left: 1183px;
-top: 1925px;
 
 font-weight: 500;
 font-size: 16px;
@@ -474,11 +298,6 @@ text-align: center;
 letter-spacing: 0.03em;}
 
 .ui-Designer {color: rgba(117, 117, 117, 1);
-position: absolute;
-width: 87px;
-height: 19px;
-left: 1207px;
-top: 1954px;
 
 font-weight: 400;
 font-size: 16px;
@@ -492,11 +311,6 @@ text-decoration: none;
 line-height: normal;}
 
 .logo-footer {color: #2196F3;
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
 
 font-family: 'Raleway';
 font-weight: 700;
@@ -508,11 +322,6 @@ letter-spacing: 0.03em;}
 .studio-white {color: white;} 
 
 .link-adr-ftr {color: rgba(255, 255, 255, 1);
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2208px;
 
 font-weight: 400;
 font-size: 14px;
@@ -521,11 +330,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;}
 
 .link-mail-ftr {color: rgba(255, 255, 255, 0.6);
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2238px;
 
 font-weight: 400;
 font-size: 14px;
@@ -534,11 +338,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;}
 
 .link-ph-ftr {color: rgba(255, 255, 255, 0.6);
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2268px;
 
 font-weight: 400;
 font-size: 14px;
@@ -552,9 +351,5 @@ letter-spacing: 0.03em;}
 .link-ph-ftr:hover,
 .link-ph-ftr:focus {color: blue;}
 
-.footer-back {background-color: rgba(47, 48, 58, 1);
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;}
+.footer-back {background-color: rgba(47, 48, 58, 1);}
+
