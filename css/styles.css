@@ -20,8 +20,7 @@ top: 24px;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+line-height: 1.19;
 letter-spacing: 0.03em;}
 
 .studio {color: #212121}
@@ -35,9 +34,8 @@ top: 32px;
 
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-}
+line-height: 1.14;
+letter-spacing: 0.02em;}
 
 .scnd-nav { color: #212121;
 position: absolute;
@@ -48,7 +46,7 @@ top: 32px;
 
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
@@ -61,7 +59,7 @@ top: 32px;
 
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
@@ -78,7 +76,7 @@ top: 32px;
 
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
@@ -91,7 +89,7 @@ top: 32px;
 
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
@@ -117,8 +115,7 @@ top: 280px;
     
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
-/* or 136% */
+line-height: 1.36;
     
 text-align: center;
 letter-spacing: 0.06em;
@@ -134,8 +131,7 @@ top: 440px;
 
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
+line-height: 1.88;
 
 display: flex;
 align-items: center;
@@ -163,7 +159,7 @@ top: 774px;
      
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;}
 
@@ -176,7 +172,7 @@ top: 774px;
 
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -189,7 +185,7 @@ top: 774px;
 
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -203,7 +199,7 @@ top: 774px;
 
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;}
 
@@ -216,8 +212,7 @@ top: 800px;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
@@ -230,8 +225,7 @@ top: 800px;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
@@ -244,8 +238,7 @@ top: 800px;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
@@ -258,8 +251,7 @@ top: 800px;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
@@ -271,7 +263,7 @@ top: 969px;
     
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -321,7 +313,7 @@ left: 668px;
     
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;} 
 
@@ -343,8 +335,7 @@ top: 1925px;
 
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
 
 text-align: center;
 letter-spacing: 0.03em;}
@@ -358,8 +349,7 @@ top: 1954px;
     
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
     
 text-align: center;
 letter-spacing: 0.03em;}
@@ -382,8 +372,7 @@ top: 1925px;
         
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
         
 text-align: center;
 letter-spacing: 0.03em;}
@@ -397,8 +386,7 @@ top: 1954px;
         
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
         
 text-align: center;
 letter-spacing: 0.03em;}
@@ -421,8 +409,7 @@ top: 1925px;
         
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
         
 text-align: center;
 letter-spacing: 0.03em;}
@@ -436,8 +423,7 @@ top: 1954px;
         
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
         
 text-align: center;
 letter-spacing: 0.03em;}
@@ -460,8 +446,7 @@ top: 1925px;
 
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
 
 text-align: center;
 letter-spacing: 0.03em;}
@@ -475,8 +460,7 @@ top: 1954px;
 
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.19;
 
 text-align: center;
 letter-spacing: 0.03em;}
@@ -495,8 +479,7 @@ top: 2157px;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+line-height: 1.19;
 
 letter-spacing: 0.03em;}
 
@@ -511,8 +494,7 @@ top: 2208px;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
@@ -525,8 +507,7 @@ top: 2238px;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
@@ -539,8 +520,7 @@ top: 2268px;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
