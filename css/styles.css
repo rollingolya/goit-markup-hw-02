@@ -1,6 +1,6 @@
-body { color: rgba(255, 255, 255, 1);
+body { color: #212121;
 background-color: white;
-font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;}
+font-family: 'Roboto', 'Raleway', 'Tahoma', sans-serif;}
 
 .menu-nav li a {
 text-decoration: none;
@@ -129,6 +129,7 @@ line-height: 60px;
     
 text-align: center;
 letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 .text-button {color: rgba(255, 255, 255, 1);
@@ -272,9 +273,9 @@ line-height: 24px;
 /* or 171% */
 
 letter-spacing: 0.03em;}
+
 .what-we-do {color: rgba(33, 33, 33, 1);
 position: absolute;
-width: 376px;
 height: 42px;
 left: 612px;
 top: 969px;
@@ -284,7 +285,8 @@ font-weight: 700;
 font-size: 36px;
 line-height: 42px;
 text-align: center;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+}
 
 .pict-first {
 position: absolute;
@@ -329,7 +331,6 @@ width: 264px;
 height: 42px;
 left: 668px;
     
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
