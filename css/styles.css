@@ -5,8 +5,8 @@
     /* bg-colors */
 }
 
-body { color: #212121;
-background-color: white;
+body { 
+font-family: var(--main-font), sans-serif;
 font-family: 'Roboto', 'Raleway', sans-serif;}
 
 /* common styles start */
@@ -16,13 +16,10 @@ font-family: 'Roboto', 'Raleway', sans-serif;}
 }
 
 /* header section */
-.menu-nav li a {
-text-decoration: none;
-line-height: normal;}
 
 .header-link a {
 text-decoration: none;
-line-height: normal;}
+}
 
 .logo {color: #2196F3;
 font-family: 'Raleway';
@@ -31,18 +28,9 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;}
 
-.logo:hover,
-.logo:focus {
-}
-
 .studio {color: #212121}
 
-.menu-nav-list > li > a:hover,
-.menu-nav-list > li > a:focus {
-}
-
-.first-nav { color: rgba(33, 150, 243, 1);
-
+.first-nav {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -61,10 +49,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;}
-
-.contact-nav a {
-text-decoration: none;
-line-height: normal;}
 
 .current-link { color: #2196F3;}
 
@@ -88,10 +72,6 @@ letter-spacing: 0.02em;}
 
 .bg-hdr {background-color: rgba(47, 48, 58, 1);}
 
-.contact-nav > a:hover,
-.contact-nav > a:focus {
-}
-
 .contact-nav {font-style: normal;
 line-height: 1.71;}
 
@@ -108,7 +88,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;}
 
 .text-button {color: rgba(255, 255, 255, 1);
-
+font: var(--main-font);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -314,7 +294,7 @@ letter-spacing: 0.03em;}
 
 .footer-back a {
 text-decoration: none;
-line-height: normal;}
+line-height: 1.71;}
 
 .logo-footer {color: #2196F3;
 
@@ -325,18 +305,12 @@ line-height: 1.19;
 
 letter-spacing: 0.03em;}
 
-.logo-footer:hover,
-.logo-footer:focus {
-}
-
 .studio-white {color: white;} 
 
 .link-adr-ftr {color: rgba(255, 255, 255, 1);
-text-decoration: none;
 
 font-weight: 400;
 font-size: 14px;
-line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
@@ -356,32 +330,27 @@ line-height: 1.71;
 
 letter-spacing: 0.03em;}
 
-.link-mail-ftr:hover,
-.link-mail-ftr:focus {
-}
-
-.link-ph-ftr:hover,
-.link-ph-ftr:focus {
-}
-
 .footer-back {background-color: rgba(47, 48, 58, 1);}
 
 /* Portfolio page */
 .first-nav-port { color: #212121;
-    Font style: Medium
-    Font size: 14px
-    Line height: 16px
-    Line height: 100%
-    Align: Left
-    Vertical align: Top
-    Letter spacing: 2%}
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;}
 
-.scnd-nav-port {color: #2196F3;}
+.scnd-nav-port {color: #2196F3;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
 
-.thrd-nav-port {color: #212121;}
-
-.link-adr-ftr:hover,
-.link-adr-ftr:focus {
+.thrd-nav-port {color: #212121;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
 .button-all-main {background: #2196F3;
