@@ -68,13 +68,16 @@ line-height: normal;}
 
 .current-link { color: #2196F3;}
 
-.link-mail {color: rgba(33, 150, 243, 1);
+.link-mail {color: #757575;
 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
+
+.mail-main:hover,
+.mail-main:focus {color: #2196F3;}
 
 .tel-hd {color: rgba(117, 117, 117, 1);
 
@@ -88,6 +91,9 @@ letter-spacing: 0.02em;}
 .contact-nav > a:hover,
 .contact-nav > a:focus {
 }
+
+.contact-nav {font-style: normal;
+line-height: 1.71;}
 
 /* hero section */
 
@@ -352,12 +358,10 @@ letter-spacing: 0.03em;}
 
 .link-mail-ftr:hover,
 .link-mail-ftr:focus {
-text-decoration: underline;
 }
 
 .link-ph-ftr:hover,
 .link-ph-ftr:focus {
-text-decoration: underline;
 }
 
 .footer-back {background-color: rgba(47, 48, 58, 1);}
@@ -377,7 +381,7 @@ text-decoration: underline;
 .thrd-nav-port {color: #212121;}
 
 .link-adr-ftr:hover,
-.link-adr-ftr:focus {text-decoration: underline;
+.link-adr-ftr:focus {
 }
 
 .button-all-main {background: #2196F3;
