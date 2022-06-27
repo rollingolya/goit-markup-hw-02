@@ -32,13 +32,13 @@ line-height: 1.19;
 letter-spacing: 0.03em;}
 
 .logo:hover,
-.logo:focus { text-decoration: underline;
+.logo:focus {
 }
 
 .studio {color: #212121}
 
 .menu-nav-list > li > a:hover,
-.menu-nav-list > li > a:focus {text-decoration: underline;
+.menu-nav-list > li > a:focus {
 }
 
 .first-nav { color: rgba(33, 150, 243, 1);
@@ -66,6 +66,8 @@ letter-spacing: 0.02em;}
 text-decoration: none;
 line-height: normal;}
 
+.current-link { color: #2196F3;}
+
 .link-mail {color: rgba(33, 150, 243, 1);
 
 font-weight: 500;
@@ -84,7 +86,7 @@ letter-spacing: 0.02em;}
 .bg-hdr {background-color: rgba(47, 48, 58, 1);}
 
 .contact-nav > a:hover,
-.contact-nav > a:focus {text-decoration: underline;
+.contact-nav > a:focus {
 }
 
 /* hero section */
@@ -117,9 +119,7 @@ justify-content: space-around;}
 
 .text-button:hover,
 .text-button:focus {
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;}
+background: #188CE8; }
 
 /* features section  */
 
@@ -320,7 +320,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;}
 
 .logo-footer:hover,
-.logo-footer:focus { text-decoration: underline;
+.logo-footer:focus {
 }
 
 .studio-white {color: white;} 
