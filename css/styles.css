@@ -333,6 +333,9 @@ letter-spacing: 0.03em;}
 .footer-back {background-color: rgba(47, 48, 58, 1);}
 
 /* Portfolio page */
+
+ul {list-style: none;}
+
 .first-nav-port { color: #212121;
 font-weight: 500;
 font-size: 14px;
@@ -353,27 +356,38 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.button-all-main {background: #2196F3;
-    /* shadow-middle */
+.button-text {
+font: var(--main-font); 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.button-text:hover,
+.button-text:focus {
+color: #FFFFFF; 
+background: #2196F3; 
+}
+
+
+.name-service {font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
     
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+color: #212121;
 }
 
-.button-all-sites {background: #F5F4FA;
-    border-radius: 4px;}
-
-.button-all-apps {background: #F5F4FA;
-    border-radius: 4px;
-
-}
-
-.button-all-design {
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-
-.button-all-marketing {
-    background: #F5F4FA;
-    border-radius: 4px;
-}
+.type-service { font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+} 
